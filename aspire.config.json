@@ -1,0 +1,28 @@
+{
+  "appHost": {
+    "path": "apphost.mts",
+    "language": "typescript/nodejs"
+  },
+  "profiles": {
+    "https": {
+      "applicationUrl": "https://aspire-py-starter.dev.localhost:17107;http://aspire-py-starter.dev.localhost:15138",
+      "environmentVariables": {
+        "ASPIRE_DASHBOARD_OTLP_ENDPOINT_URL": "https://aspire-py-starter.dev.localhost:21108",
+        "ASPIRE_RESOURCE_SERVICE_ENDPOINT_URL": "https://aspire-py-starter.dev.localhost:22082"
+      }
+    },
+    "http": {
+      "applicationUrl": "http://aspire-py-starter.dev.localhost:15138",
+      "environmentVariables": {
+        "ASPIRE_DASHBOARD_OTLP_ENDPOINT_URL": "http://aspire-py-starter.dev.localhost:19064",
+        "ASPIRE_RESOURCE_SERVICE_ENDPOINT_URL": "http://aspire-py-starter.dev.localhost:20169",
+        "ASPIRE_ALLOW_UNSECURED_TRANSPORT": "true"
+      }
+    }
+  },
+  "packages": {
+    "Aspire.Hosting.JavaScript": "13.5.3",
+    "Aspire.Hosting.Python": "13.5.3",
+    "Aspire.Hosting.Redis": "13.5.3"
+  }
+}
