@@ -1,0 +1,6 @@
+# Copy this file to uv.toml to use a custom Python package index locally and
+# in Aspire container builds. Keep credentials out of this tracked template.
+index-url = "https://pypi.org/simple"
+
+# Private-feed example:
+# index-url = "https://python.example.com/simple"

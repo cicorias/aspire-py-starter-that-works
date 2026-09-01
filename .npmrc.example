@@ -1,0 +1,7 @@
+# Copy this file to .npmrc to use a custom npm registry locally and in
+# Aspire container builds. Keep credentials out of this tracked template.
+registry=https://registry.npmjs.org/
+
+# Private-feed example:
+# registry=https://npm.example.com/
+# Add authentication only to the untracked .npmrc copy.
